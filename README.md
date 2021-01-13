@@ -1,4 +1,4 @@
-# Emotion_Recognition_Application
+# Emotion_Recognition_Application_Clinical
 Python Desktop Application for Emotion Recognition Project
 
 
