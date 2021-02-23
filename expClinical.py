@@ -421,7 +421,7 @@ def runExp(participantId):
 
     for thisTrial in trials:
 
-        if(nImageShowed == 5):
+        if(nImageShowed == 20):
             break;
 
         currentLoop = trials
