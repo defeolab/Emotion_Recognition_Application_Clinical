@@ -83,9 +83,13 @@ def runExp(participantId):
     # Initialize components for Routine "Introduction"
     IntroductionClock = core.Clock()
     text = visual.TextStim(win=win, name='text',
-                           text='The experiment is starting.\n\nPress the spacebar when you are ready!',
+                           #text="L'esperimento sta per cominciare.\n\nPremi barra spaziatrice quando sei pronto!",
+                           text= "Ti verranno mostrate delle immagini, osservale attentamente. Una volta fatto, clicca con il tasto sinistro del mouse.\n"
+                                 "Ti saranno mostrate delle emozioni, scegli quella più vicina a quello che hai provato guardando la foto cliccandoci sopra con il tasto sinistro del mouse.\n"
+                                 "La procedura si ripeterà per 20 immagini.\n\n"
+                                 "Premi la barra spaziatrice quando sei pronto ad iniziare.",
                            font='Arial',
-                           pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
+                           pos=(0, 0), height=0.06, wrapWidth=None, ori=0,
                            color='white', colorSpace='rgb', opacity=1,
                            languageStyle='LTR',
                            depth=0.0);
@@ -193,84 +197,84 @@ def runExp(participantId):
         fillColor=[1, 1, 1], fillColorSpace='rgb',
         opacity=1, depth=-11.0, interpolate=True)
     text_excited = visual.TextStim(win=win, name='text_excited',
-                                   text='Excited',
+                                   text='Eccitato',
                                    font='Arial',
                                    pos=(0.10, 0.38), height=0.04, wrapWidth=None, ori=0,
                                    color='black', colorSpace='rgb', opacity=1,
                                    languageStyle='LTR',
                                    depth=-12.0);
     text_delighted = visual.TextStim(win=win, name='text_delighted',
-                                     text='Delighted',
+                                     text='Deliziato',
                                      font='Arial',
-                                     pos=(0.30, 0.25), height=0.035, wrapWidth=None, ori=0,
+                                     pos=(0.30, 0.25), height=0.04, wrapWidth=None, ori=0,
                                      color='black', colorSpace='rgb', opacity=1,
                                      languageStyle='LTR',
                                      depth=-13.0);
     text_happy = visual.TextStim(win=win, name='text_happy',
-                                 text='Happy',
+                                 text='Contento',
                                  font='Arial',
                                  pos=(0.47, 0.1), height=0.04, wrapWidth=None, ori=0,
                                  color='black', colorSpace='rgb', opacity=1,
                                  languageStyle='LTR',
                                  depth=-14.0);
     text_content = visual.TextStim(win=win, name='text_content',
-                                   text='Content',
+                                   text='Soddisfatto',
                                    font='Arial',
-                                   pos=(0.47, -0.1), height=0.04, wrapWidth=None, ori=0,
+                                   pos=(0.47, -0.1), height=0.035, wrapWidth=None, ori=0,
                                    color='black', colorSpace='rgb', opacity=1,
                                    languageStyle='LTR',
                                    depth=-15.0);
     text_relaxed = visual.TextStim(win=win, name='text_relaxed',
-                                   text='Relaxed',
+                                   text='Rilassato',
                                    font='Arial',
                                    pos=(0.30, -0.25), height=0.04, wrapWidth=None, ori=0,
                                    color='black', colorSpace='rgb', opacity=1,
                                    languageStyle='LTR',
                                    depth=-16.0);
     text_calm = visual.TextStim(win=win, name='text_calm',
-                                text='Calm',
+                                text='Calmo',
                                 font='Arial',
                                 pos=(0.10, -0.38), height=0.04, wrapWidth=None, ori=0,
                                 color='black', colorSpace='rgb', opacity=1,
                                 languageStyle='LTR',
                                 depth=-17.0);
     text_tired = visual.TextStim(win=win, name='text_tired',
-                                 text='Tired',
+                                 text='Stufo',
                                  font='Arial',
                                  pos=(-0.10, -0.38), height=0.04, wrapWidth=None, ori=0,
                                  color='black', colorSpace='rgb', opacity=1,
                                  languageStyle='LTR',
                                  depth=-18.0);
     text_bored = visual.TextStim(win=win, name='text_bored',
-                                 text='Bored',
+                                 text='Annoiato',
                                  font='Arial',
                                  pos=(-0.30, -0.25), height=0.04, wrapWidth=None, ori=0,
                                  color='black', colorSpace='rgb', opacity=1,
                                  languageStyle='LTR',
                                  depth=-19.0);
     text_depressed = visual.TextStim(win=win, name='text_depressed',
-                                     text='Depressed',
+                                     text='Depresso',
                                      font='Arial',
                                      pos=(-0.47, -0.1), height=0.035, wrapWidth=None, ori=0,
                                      color='black', colorSpace='rgb', opacity=1,
                                      languageStyle='LTR',
                                      depth=-20.0);
     text_frustrated = visual.TextStim(win=win, name='text_frustrated',
-                                      text='Frustrated',
+                                      text='Frustrato',
                                       font='Arial',
                                       pos=(-0.47, 0.1), height=0.035, wrapWidth=None, ori=0,
                                       color='black', colorSpace='rgb', opacity=1,
                                       languageStyle='LTR',
                                       depth=-21.0);
     text_angry = visual.TextStim(win=win, name='text_angry',
-                                 text='Angry',
+                                 text='Arrabbiato',
                                  font='Arial',
-                                 pos=(-0.30, 0.25), height=0.04, wrapWidth=None, ori=0,
+                                 pos=(-0.30, 0.25), height=0.035, wrapWidth=None, ori=0,
                                  color='black', colorSpace='rgb', opacity=1,
                                  languageStyle='LTR',
                                  depth=-22.0);
     text_tense = visual.TextStim(win=win, name='text_tense',
-                                 text='Tense',
+                                 text='Teso',
                                  font='Arial',
                                  pos=(-0.10, 0.38), height=0.04, wrapWidth=None, ori=0,
                                  color='black', colorSpace='rgb', opacity=1,
@@ -284,14 +288,14 @@ def runExp(participantId):
     # Initialize components for Routine "End"
     EndClock = core.Clock()
     text_2 = visual.TextStim(win=win, name='text_2',
-                             text='End',
+                             text='Fine',
                              font='Arial',
-                             pos=(0, 0), height=0.4, wrapWidth=None, ori=0,
+                             pos=(0, 0.1), height=0.4, wrapWidth=None, ori=0,
                              color='white', colorSpace='rgb', opacity=1,
                              languageStyle='LTR',
                              depth=0.0);
     text_3 = visual.TextStim(win=win, name='text_3',
-                             text='Press spacebar to exit',
+                             text='Premi la barra spaziatrice per uscire',
                              font='Arial',
                              pos=(0, -0.3), height=0.05, wrapWidth=None, ori=0,
                              color='white', colorSpace='rgb', opacity=1,
@@ -421,7 +425,7 @@ def runExp(participantId):
 
     for thisTrial in trials:
 
-        if(nImageShowed == 5):
+        if(nImageShowed == 20):
             break;
 
         currentLoop = trials

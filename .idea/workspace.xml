@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2220a40-f133-456a-bde5-50dcc6d28496" name="Default Changelist" comment="some fix for presentation" />
+    <list default="true" id="d2220a40-f133-456a-bde5-50dcc6d28496" name="Default Changelist" comment="some fix for presentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expClinical.py" beforeDir="false" afterPath="$PROJECT_DIR$/expClinical.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -184,6 +187,11 @@
       <workItem from="1610560892560" duration="43000" />
       <workItem from="1610560972535" duration="82000" />
       <workItem from="1610561672963" duration="1391000" />
+      <workItem from="1611596669643" duration="744000" />
+      <workItem from="1613644600358" duration="218000" />
+      <workItem from="1613646869629" duration="26000" />
+      <workItem from="1614103530178" duration="1604000" />
+      <workItem from="1614272480837" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="Clinical experiment aligned to Mostafa's one (same label and disposition)">
       <created>1607537246347</created>
@@ -243,34 +251,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607190750568" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609612696105">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613646883426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609612696105" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610563304874">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613646883426" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614273387536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608059398242" />
     <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608572103688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610563304874" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610563304874">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614273387536" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614273387536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608059398242" />
     <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608572103688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610563304874" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610563304874">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614273387536" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614273387536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608059398242" />
     <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608572103688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610563304874" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610563304874">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614273387536" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614273387536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608059398242" />
     <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608572103688" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610563304874" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614273387536" />
     <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1609088308504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,11 +303,11 @@
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608059398242" />
     <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608572103688" />
     <state width="1877" height="311" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609088308504" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1610563301047">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614106135226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607195876157" />
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610563301047" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614106135226" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609268573964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,7 +321,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Emotion_Recognition_Application$main.coverage" NAME="main Coverage Results" MODIFIED="1610560979976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Emotion_Recognition_Application_Clinical$main.coverage" NAME="main Coverage Results" MODIFIED="1610562365296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Emotion_Recognition_Application_Clinical$main.coverage" NAME="main Coverage Results" MODIFIED="1614273387520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Emotion_Recognition_Application$vlcExample.coverage" NAME="vlcExample Coverage Results" MODIFIED="1608225329443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Emotion_Recognition_Application$mediaPlayer2.coverage" NAME="mediaPlayer2 Coverage Results" MODIFIED="1608229008697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
